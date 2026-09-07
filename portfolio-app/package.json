@@ -1,0 +1,14 @@
+{
+  "name": "eskazee-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "description": "Personal portfolio site for Success Oluwafemi Patrick (eskazee)",
+  "scripts": {
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "start": "node app.js"
+  }
+}
